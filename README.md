@@ -7,3 +7,5 @@
 ### Examples
 
 [![asciicast](https://asciinema.org/a/l4F51E72fdmXSdGDQmuLiVpDF.svg)](https://asciinema.org/a/l4F51E72fdmXSdGDQmuLiVpDF)
+
+[![asciicast](https://asciinema.org/a/u7yynmfxPU4yFQg867t6kEEJb.svg)](https://asciinema.org/a/u7yynmfxPU4yFQg867t6kEEJb)

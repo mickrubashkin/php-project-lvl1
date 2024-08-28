@@ -10,4 +10,4 @@ if (file_exists($autoloadPath1)) {
   require_once $autoloadPath2;
 }
 
-require_once(__DIR__ . '/../src/Games/Brain-even.php');
+require_once(__DIR__ . '/../src/Games/Brain-calc.php');
