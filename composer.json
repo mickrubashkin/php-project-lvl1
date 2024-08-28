@@ -1,4 +1,8 @@
 {
-    "name": "hexlet/code",
-    "require": {}
+  "name": "hexlet/code",
+  "description": "hexlet.io/php-level1",
+  "require": {},
+  "bin": [
+    "bin/brain-games"
+  ]
 }
