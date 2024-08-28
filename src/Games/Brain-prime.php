@@ -14,7 +14,7 @@ function isPrime($num)
         return false;
     }
 
-    for ($i = 2; $i < $num ** 0.5; $i += 1) {
+    for ($i = 2; $i <= $num ** 0.5; $i += 1) {
         if ($num % $i === 0) {
             return false;
         }
