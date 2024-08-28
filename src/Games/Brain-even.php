@@ -9,10 +9,10 @@ use function Braingames\Engine\play;
 $description = "Answer \"yes\" if the number is even, otherwise answer \"no\".";
 
 $getRoundData = function () {
-  $question = rand(5, 99);
-  $correctAnswer = $question % 2 === 0 ? 'yes' : 'no';
+    $question = rand(5, 99);
+    $correctAnswer = $question % 2 === 0 ? 'yes' : 'no';
 
-  return [$question, $correctAnswer];
+    return [$question, $correctAnswer];
 };
 
 play($description, $getRoundData);
