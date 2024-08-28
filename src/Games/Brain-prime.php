@@ -8,7 +8,7 @@ use function Braingames\Engine\play;
 
 $description = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
 
-function isPrime($num)
+function isPrime(int $num)
 {
     if ($num < 2) {
         return false;
@@ -30,7 +30,7 @@ $getroundData = function () {
     $correctAnswer = isPrime($question) ? 'yes' : 'no';
 
 
-    return [$question, (string)$correctAnswer];
+    return [$question, $correctAnswer];
 };
 
 play($description, $getroundData);
