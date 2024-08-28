@@ -32,7 +32,7 @@ function play($description, $getRoundData)
   }
 
   if ($isWin) {
-    line("Congratulation, %s!", $name);
+    line("Congratulations, %s!", $name);
   } else {
     line("Let's try again, %s!", $name);
   }
